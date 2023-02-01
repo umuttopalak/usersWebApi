@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SS-A\\Desktop\\react\\WebApi\\WebApi\\WebApi.csproj": {}
+    "E:\\Projeler\\Cs\\usersWebApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SS-A\\Desktop\\react\\WebApi\\WebApi\\WebApi.csproj": {
+    "E:\\Projeler\\Cs\\usersWebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SS-A\\Desktop\\react\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "E:\\Projeler\\Cs\\usersWebApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\SS-A\\Desktop\\react\\WebApi\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\SS-A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SS-A\\Desktop\\react\\WebApi\\WebApi\\obj\\",
+        "projectPath": "E:\\Projeler\\Cs\\usersWebApi\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\umutt\\.nuget\\packages\\",
+        "outputPath": "E:\\Projeler\\Cs\\usersWebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SS-A\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umutt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +63,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.29, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
             },
             "Npgsql": {
               "target": "Package",

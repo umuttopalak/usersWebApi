@@ -5,7 +5,22 @@
     <StartupObject></StartupObject>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
+    <UserSecretsId>a569d97e-d19b-417a-b324-dc3fecddef17</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230129183302_User.cs" />
+    <Compile Remove="Migrations\20230129183302_User.Designer.cs" />
+    <Compile Remove="Migrations\20230129183626_users.cs" />
+    <Compile Remove="Migrations\20230129183626_users.Designer.cs" />
+    <Compile Remove="Migrations\20230129183706_user.cs" />
+    <Compile Remove="Migrations\20230129183706_user.Designer.cs" />
+    <Compile Remove="Migrations\20230129183751_users.cs" />
+    <Compile Remove="Migrations\20230129183751_users.Designer.cs" />
+    <Compile Remove="Migrations\20230129184127_user.cs" />
+    <Compile Remove="Migrations\20230129184127_user.Designer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Elmah.MVC" Version="2.1.2" />
@@ -19,6 +34,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.32" />
     <PackageReference Include="Npgsql" Version="5.0.15" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.18" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />

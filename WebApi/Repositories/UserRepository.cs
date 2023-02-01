@@ -26,6 +26,7 @@ namespace WebApi.Repositories
 
         async Task IUserRepository.Delete(int id)
         {
+
             var thresUser = await _context.Users.FindAsync(id);
             if(thresUser == null)
             {

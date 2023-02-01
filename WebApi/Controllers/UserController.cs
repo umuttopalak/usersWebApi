@@ -60,6 +60,13 @@ namespace WebApi.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteUser(int id)
         {
+
+            var threshUser = await _userRepository.Get(id);
+            if(threshUser == null)
+            {
+                return BadRequest();
+            }
+
             await _userRepository.Delete(id);
             return Ok();
         }
